@@ -41,6 +41,7 @@ public class GoogleMap {
 			// 가져온 정보를 파일로 씀
 			File resultFile = new File("testdata//result//" + file.getName().replace(".txt", ".csv"));
 			writeTextFile(content, resultFile);
+			
 		}
 	}
 
